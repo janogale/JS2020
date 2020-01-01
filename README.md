@@ -2,6 +2,8 @@
 
 ## @ Elmi Academy
 
-### Class of 2020 - Morning.
+### Class of 2020 - Morning
+
+#### Hargeisa - Somaliland
 
 ### read slide [here](https://janogale.github.io/JS2020)
