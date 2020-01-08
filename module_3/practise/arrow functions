@@ -1,0 +1,23 @@
+// zero parameter and single line 
+
+let add = () => console.log("Hello Students")
+
+add()
+
+
+// single paramater - paranthese is optional
+
+let greeting = name => console.log(`hello ${name}`)
+
+
+greeting("Ahmed")
+greeting("Najma")
+
+
+// multiple parameter - paranthese is must
+
+let power = (base, p) => {
+  return  base ** p;
+}
+
+power(2, 10)

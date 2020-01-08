@@ -1,0 +1,50 @@
+// setInterval
+// setTimeout
+
+
+// function calculate(n1, n2, type){
+  
+//   switch(type){
+//     case 'add':
+//       return n1 + n2;
+//       break;
+//     case 'subs':
+//       return n1 - n2;
+//     case 'div':
+//       return n1 / n2
+//   }
+// }
+
+
+// using callbacks
+
+// arrow functions
+let add = (n1, n2) => n1 + n2
+
+let substract = (n1, n2) => n1 - n2
+
+let multiply = (n1, n2) => n1 * n2
+
+let power = (n1, n2) => n1 **  n2
+
+
+function calculate(n1, n2, cb){
+  return cb(n1, n2)
+}
+
+
+calculate("Ahmed", " Ali", function(p1, p2){
+  return p1.toUpperCase() + p2.toUpperCase()
+})
+
+
+
+
+
+
+
+
+
+
+
+
