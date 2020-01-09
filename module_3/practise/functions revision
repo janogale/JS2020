@@ -1,0 +1,114 @@
+// declaration
+
+  let light = true;
+
+
+function switchLight(){
+  
+  if(light){
+   light = false 
+  }else {
+    light = true
+  }
+  
+  return light
+}
+
+//console.log(button())
+
+
+// function expression
+
+let changeLight = function(){
+  
+  if(light){
+   light = false 
+  }else {
+    light = true
+  }
+  
+  return light
+}
+
+//console.log(changeLight())
+
+
+// arrow function 
+
+
+let changelIght2 = state => light ? false : true; 
+
+
+console.log(changelIght2())
+
+
+
+
+function doSomething(){
+  
+  console.log("before return")
+  
+  return function add(a, b){
+    return a + b
+  }
+  
+  console.log("after return")
+}
+
+
+let add = doSomething()
+
+
+
+console.log(add(10, 20))
+
+
+
+
+function factorial(num){
+  
+   if(num <= 1) return 1;
+  
+  return num * factorial(num - 1)
+}
+
+
+console.log(factorial(10))
+
+
+
+
+
+let capitalize = str => {
+  
+  if(typeof str !== 'string') return "string required"
+    
+  let firstLetter = str.charAt().toUpperCase();
+  let remainingLetters = str.substr(1).toLowerCase()
+  
+  return firstLetter + remainingLetters;
+}
+
+
+console.log( capitalize("somaliland") )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
