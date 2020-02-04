@@ -1,0 +1,39 @@
+let student = {
+  name: "ali",
+  course: "js"
+}
+
+function Student(name, id){
+  this.name = name;
+  this.id = id; 
+  this.course = "javascript";  
+  this.year = 2020;
+  this.isPaid = false;
+  this.payFee = function(){
+    this.isPaid = true
+  }
+}
+
+let s1 = new Student("Mahamed", 101)
+let s2 = new Student("Asma", 102)
+let str = "hello"
+
+s2.constructor
+s1.payFee()
+s2.payFee()
+s1.course
+s1.isPaid
+s2.name
+s2.id
+s2.isPaid
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

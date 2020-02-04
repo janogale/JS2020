@@ -1,0 +1,151 @@
+// JS LOOPS
+// repeats code block untill specified condition is true.
+// loops stop when condition is evaluates to false.
+
+/*
+1- for loop
+2- while loop
+3- do while loop
+4- for in loop (Objects)
+5: for of (Arrays - etirables)
+
+for loop syntax
+for(initial, conditon, increment){
+  body
+}
+
+
+
+let students = ["raqiiq", "Mubarak", "Abdicasiis", "Maxamed", "Mubarak", "Asma", "Najma", "Mukhtar"]
+
+for(let i = 0; i < students.length; i++){
+  console.log(students[i])
+}
+
+
+let j = 100, counter = 0;
+
+for(; j > 0 ; ){
+  counter++
+  console.log("Hello J", j * counter)  
+  j -= 10
+}
+
+
+while loop syntax
+
+while(){
+
+
+}
+
+// Breaking Loop - exit
+break
+
+// Skip loop iteration - jump
+continue
+
+
+
+
+
+let i = 10;
+
+
+while(true){
+ 
+  console.log(i)
+  i++
+  if(i == 20) break
+ 
+}
+
+
+
+let counter = 0
+do {
+  console.log("condition is false")
+  if(counter == 10) break
+  counter++
+} while(true)
+
+
+
+
+
+for of Syntax
+
+for(let value of arr){
+  
+  console.log(value)
+}
+
+
+
+
+
+
+
+for(let l of "Somaliland"){
+  if(l == "i") continue;
+  console.log(l.toUpperCase())
+}
+
+
+*/
+
+
+let arr = ["jabouti", "Hargeisa", "Elmi Academy"]
+
+
+obj = {
+  somaliland: [s,m, l, l, n, d],
+  hargeisa: [h, r,g,s],
+  elmi: [l, m, c, d, m, y]
+}
+
+const obj = {
+  country: '',
+  city: '',
+  school: ''
+}
+
+let i = 0;
+
+for(let k in obj){
+  obj[k] = arr[i++]
+}
+
+
+obj
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
